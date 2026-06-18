@@ -1,0 +1,744 @@
+{
+  "projects": [
+    {
+      "name": "lang-ada",
+      "name_cn": "Lang Ada — 阿呆的编程语言",
+      "color": "#e53935",
+      "total": 35,
+      "done": 3,
+      "progress": 8.6,
+      "current_task": "Implement: 运算符/标点/关键字识别",
+      "phases": [
+        {
+          "name": "标准库",
+          "name_en": "Phase 5: Standard Library",
+          "done": 0,
+          "total": 6,
+          "tasks": [
+            {
+              "title": "Design: 标准库模块设计",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: math模块",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: string模块",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: list模块",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: io模块",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "类型系统",
+          "name_en": "Phase 4: Type System",
+          "done": 0,
+          "total": 6,
+          "tasks": [
+            {
+              "title": "Design: 类型定义与推导规则",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Spec: 类型规则文档",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 类型标注解析",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 类型检查器",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Commit: 提交代码+更新README",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "解释器",
+          "name_en": "Phase 3: Interpreter",
+          "done": 0,
+          "total": 9,
+          "tasks": [
+            {
+              "title": "Design: 环境与作用域设计",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 基础表达式求值",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 控制流（if/while/for）",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 函数定义与调用",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 闭包与作用域",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 内建函数（print/len/type）",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test: 完整程序测试",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Verify: 性能与错误处理",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Commit: 提交代码+更新README",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "语法分析器",
+          "name_en": "Phase 2: Parser",
+          "done": 0,
+          "total": 7,
+          "tasks": [
+            {
+              "title": "Design: 定义AST节点类型",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Spec: 定义语法的BNF文法",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 表达式解析（优先级+结合性）",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 语句解析",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test: 解析器单元测试",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Verify: 错误恢复+报错信息",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Commit: 提交代码+更新README",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "词法分析器",
+          "name_en": "Phase 1: Lexer",
+          "done": 3,
+          "total": 7,
+          "tasks": [
+            {
+              "title": "Design: 定义Token类型体系",
+              "status": "completed",
+              "result": "完成了Token类型体系的设计，包含完整的TokenType枚举、Token类结构、关键字表和测试用例，输出文档和实现代码。",
+              "completed_at": "2026-06-17T20:03:12.284813"
+            },
+            {
+              "title": "Spec: 编写Lexer接口规范",
+              "status": "completed",
+              "result": "已编写完整的Lexer接口规范文档，包含__init__、tokenize、peek、advance、skip_whitespace等核心方法定义",
+              "completed_at": "2026-06-17T22:07:48.356085"
+            },
+            {
+              "title": "Implement: 数字/字符串/标识符识别",
+              "status": "completed",
+              "result": "成功实现 read_number(), read_string(), read_identifier() 方法，并添加了完整的 Lexer 类和测试用例",
+              "completed_at": "2026-06-18T00:07:52.884529"
+            },
+            {
+              "title": "Implement: 运算符/标点/关键字识别",
+              "status": "in_progress",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test: 编写单元测试",
+              "status": "in_progress",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Verify: 端到端验证+修复",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Commit: 提交代码+更新README",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "civilization-sim",
+      "name_cn": "Civilization Sim — 数字文明模拟器",
+      "color": "#00b894",
+      "total": 23,
+      "done": 3,
+      "progress": 13.0,
+      "current_task": "Implement: 地形生成器+可视化",
+      "phases": [
+        {
+          "name": "科技树",
+          "name_en": "Phase 4: Technology",
+          "done": 0,
+          "total": 4,
+          "tasks": [
+            {
+              "title": "Design: 科技树设计",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 科技发现机制",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 科技效果",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "社会结构",
+          "name_en": "Phase 3: Society",
+          "done": 0,
+          "total": 5,
+          "tasks": [
+            {
+              "title": "Design: 社会结构模型",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 部落形成算法",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 信仰与文化传播",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 冲突与战争",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "经济系统",
+          "name_en": "Phase 2: Economy",
+          "done": 0,
+          "total": 6,
+          "tasks": [
+            {
+              "title": "Design: 经济模型设计",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Spec: 经济参数表",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: Agent专业化",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 交易系统",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 货币演化",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "基础生态",
+          "name_en": "Phase 1: Terrain",
+          "done": 3,
+          "total": 8,
+          "tasks": [
+            {
+              "title": "Design: 地形数据模型",
+              "status": "completed",
+              "result": "设计完成：定义了Tile类型（WATER/LOWLAND/FOREST/MOUNTAIN/DESERT）和Map网格结构，实现了完整的程序化地形生成算法，包括柏林噪声、水文系统和资源分布。代码运行正常，设计文档已更新。",
+              "completed_at": "2026-06-17T22:37:56.259414"
+            },
+            {
+              "title": "Spec: Perlin Noise地形生成算法",
+              "status": "completed",
+              "result": "Spec文档完成：定义了Perlin噪声地形生成算法的所有参数，包括核心参数、地形分类参数、预设配置方案和实现流程",
+              "completed_at": "2026-06-18T00:38:13.597167"
+            },
+            {
+              "title": "Implement: Perlin/Simplex Noise实现",
+              "status": "completed",
+              "result": "成功实现Perlin/Simplex噪声地形生成器，支持多种地形类型和资源分布",
+              "completed_at": "2026-06-18T07:08:21.377804"
+            },
+            {
+              "title": "Implement: 地形生成器+可视化",
+              "status": "in_progress",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 资源分布系统",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 基础人口Agent",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Deploy: 更新网站demo",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "evo-music",
+      "name_cn": "Evo Music — 自进化音乐引擎",
+      "color": "#6c5ce7",
+      "total": 22,
+      "done": 5,
+      "progress": 22.7,
+      "current_task": null,
+      "phases": [
+        {
+          "name": "进化机制",
+          "name_en": "Phase 4: Evolution",
+          "done": 0,
+          "total": 5,
+          "tasks": [
+            {
+              "title": "Design: 遗传算法设计",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 适应度函数",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 遗传算法引擎",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 进化迭代",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "编曲引擎",
+          "name_en": "Phase 3: Arrangement",
+          "done": 0,
+          "total": 5,
+          "tasks": [
+            {
+              "title": "Design: 编曲架构",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 和声自动编排",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 鼓点与节奏层",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: A-B-A曲式",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "旋律生成",
+          "name_en": "Phase 2: Melody",
+          "done": 0,
+          "total": 5,
+          "tasks": [
+            {
+              "title": "Design: 旋律生成算法",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 马尔可夫旋律引擎",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 情感映射",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 旋律连贯性优化",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "乐理基础",
+          "name_en": "Phase 1: Music Theory",
+          "done": 5,
+          "total": 7,
+          "tasks": [
+            {
+              "title": "Design: 音阶/和弦数据模型",
+              "status": "completed",
+              "result": "完成音阶/和弦/节奏数据模型设计，创建了完整的Python实现文档和代码模块",
+              "completed_at": "2026-06-17T21:13:24.739198"
+            },
+            {
+              "title": "Spec: MIDI输出规范",
+              "status": "completed",
+              "result": "完成MIDI输出规范文档，定义了文件格式、轨道结构、元数据格式、输出接口和质量标准",
+              "completed_at": "2026-06-17T23:07:32.414657"
+            },
+            {
+              "title": "Implement: 音阶系统",
+              "status": "completed",
+              "result": "音阶系统实现完成 - 添加了20+种音阶类型，包括基础、五声、布鲁斯、教会调式、现代和民族音阶。实现了灵活的音符序列生成功能，支持向上、向下、往返三种方向。增强了和弦推荐系统，为每种音阶类型提供了相应的和弦进行建议。添加了音阶特性分析功能，包括音程模式分析和音乐特征识别。代码经过测试验证，功能正常。",
+              "completed_at": "2026-06-18T01:10:13.010017"
+            },
+            {
+              "title": "Implement: 和弦进行生成",
+              "status": "completed",
+              "result": "实现I-V-vi-IV等经典和弦进行的自动生成功能，包括8种不同风格，支持紧张度分析和改进建议",
+              "completed_at": "2026-06-18T07:42:45.650057"
+            },
+            {
+              "title": "Implement: 节奏模式库",
+              "status": "completed",
+              "result": "实现节奏模式库rhythm_patterns.py，包含33个模式覆盖7种拍号(4/4,3/4,2/4,6/8,12/8,5/4,7/8)和15种风格，RhythmLibrary类支持按拍号/风格/关键词查询和随机获取，全部测试通过",
+              "completed_at": "2026-06-18T12:44:38.052250"
+            },
+            {
+              "title": "Implement: MIDI文件输出",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "video-prompt-gen",
+      "name_cn": "Video Prompt Gen — AI视频提示词生成器",
+      "color": "#ff8c32",
+      "total": 13,
+      "done": 4,
+      "progress": 30.8,
+      "current_task": null,
+      "phases": [
+        {
+          "name": "平台适配",
+          "name_en": "Phase 4: Platform Export",
+          "done": 0,
+          "total": 3,
+          "tasks": [
+            {
+              "title": "Design: 平台参数映射",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 多平台导出",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "分镜序列",
+          "name_en": "Phase 3: Storyboard",
+          "done": 0,
+          "total": 4,
+          "tasks": [
+            {
+              "title": "Design: 分镜数据模型",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 分镜编辑器",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Implement: 转场描述生成",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "电影风格系统",
+          "name_en": "Phase 2: Style System",
+          "done": 1,
+          "total": 3,
+          "tasks": [
+            {
+              "title": "Design: 风格参数设计",
+              "status": "completed",
+              "result": "完成风格参数设计，新增电影流派、灯光风格、调色方案、胶片质感四大参数系统，并更新模板系统",
+              "completed_at": "2026-06-18T08:12:46.218697"
+            },
+            {
+              "title": "Implement: 风格预设系统",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "pending",
+              "result": "",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "name": "核心参数体系",
+          "name_en": "Phase 1: Core Params",
+          "done": 3,
+          "total": 3,
+          "tasks": [
+            {
+              "title": "Design: 参数分类体系",
+              "status": "completed",
+              "result": "设计文档已创建：整理相机运动/角度/景别/速度的完整分类体系，包含详细表格和使用指南",
+              "completed_at": "2026-06-17T21:37:33.702199"
+            },
+            {
+              "title": "Implement: 参数数据结构+UI渲染",
+              "status": "completed",
+              "result": "完成了参数数据结构+UI渲染系统，创建了完整的JS数据驱动的HTML页面，包含相机运动、镜头角度、景别、运动速度等参数选择和模板系统",
+              "completed_at": "2026-06-17T23:39:35.348390"
+            },
+            {
+              "title": "Test + Verify + Commit + Deploy",
+              "status": "completed",
+              "result": "所有参数选择和组合功能测试通过，互斥逻辑验证正常",
+              "completed_at": "2026-06-18T01:40:56.558336"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_commits": 0,
+  "updated_at": "2026-06-18T12:44:44.523226"
+}

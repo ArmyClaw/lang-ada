@@ -1,0 +1,261 @@
+{
+  "name": "lang-ada",
+  "name_cn": "Lang Ada — 阿呆的编程语言",
+  "color": "#e53935",
+  "total": 35,
+  "done": 3,
+  "progress": 8.6,
+  "current_task": "Implement: 运算符/标点/关键字识别",
+  "phases": [
+    {
+      "name": "标准库",
+      "name_en": "Phase 5: Standard Library",
+      "done": 0,
+      "total": 6,
+      "tasks": [
+        {
+          "title": "Design: 标准库模块设计",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: math模块",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: string模块",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: list模块",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: io模块",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Test + Verify + Commit",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "name": "类型系统",
+      "name_en": "Phase 4: Type System",
+      "done": 0,
+      "total": 6,
+      "tasks": [
+        {
+          "title": "Design: 类型定义与推导规则",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Spec: 类型规则文档",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 类型标注解析",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 类型检查器",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Test + Verify",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Commit: 提交代码+更新README",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "name": "解释器",
+      "name_en": "Phase 3: Interpreter",
+      "done": 0,
+      "total": 9,
+      "tasks": [
+        {
+          "title": "Design: 环境与作用域设计",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 基础表达式求值",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 控制流（if/while/for）",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 函数定义与调用",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 闭包与作用域",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 内建函数（print/len/type）",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Test: 完整程序测试",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Verify: 性能与错误处理",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Commit: 提交代码+更新README",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "name": "语法分析器",
+      "name_en": "Phase 2: Parser",
+      "done": 0,
+      "total": 7,
+      "tasks": [
+        {
+          "title": "Design: 定义AST节点类型",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Spec: 定义语法的BNF文法",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 表达式解析（优先级+结合性）",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Implement: 语句解析",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Test: 解析器单元测试",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Verify: 错误恢复+报错信息",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Commit: 提交代码+更新README",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        }
+      ]
+    },
+    {
+      "name": "词法分析器",
+      "name_en": "Phase 1: Lexer",
+      "done": 3,
+      "total": 7,
+      "tasks": [
+        {
+          "title": "Design: 定义Token类型体系",
+          "status": "completed",
+          "result": "完成了Token类型体系的设计，包含完整的TokenType枚举、Token类结构、关键字表和测试用例，输出文档和实现代码。",
+          "completed_at": "2026-06-17T20:03:12.284813"
+        },
+        {
+          "title": "Spec: 编写Lexer接口规范",
+          "status": "completed",
+          "result": "已编写完整的Lexer接口规范文档，包含__init__、tokenize、peek、advance、skip_whitespace等核心方法定义",
+          "completed_at": "2026-06-17T22:07:48.356085"
+        },
+        {
+          "title": "Implement: 数字/字符串/标识符识别",
+          "status": "completed",
+          "result": "成功实现 read_number(), read_string(), read_identifier() 方法，并添加了完整的 Lexer 类和测试用例",
+          "completed_at": "2026-06-18T00:07:52.884529"
+        },
+        {
+          "title": "Implement: 运算符/标点/关键字识别",
+          "status": "in_progress",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Test: 编写单元测试",
+          "status": "in_progress",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Verify: 端到端验证+修复",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        },
+        {
+          "title": "Commit: 提交代码+更新README",
+          "status": "pending",
+          "result": "",
+          "completed_at": null
+        }
+      ]
+    }
+  ]
+}
